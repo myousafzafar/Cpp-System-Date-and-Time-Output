@@ -1,0 +1,8 @@
+ctime is a deprecated header in C++. So using it gave error in compilation on visual studio 2022 - "it is not safe, use ctime_s instead", but using that too gave error.
+
+
+One solution is to write this line in your program "#pragma warning(disable : 4996)"
+
+Another solution (which I used) was to go to project -> basic output and date properties -> General -> SDL checks -> disable SDL checks (originally on)
+
+No more errors. Program compiles successfully.
