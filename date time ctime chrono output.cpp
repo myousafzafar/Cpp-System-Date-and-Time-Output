@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    _CRT_SECURE_NO_WARNINGS;
+    //_CRT_SECURE_NO_WARNINGS;
     // Here system_clock is wall clock time from
     // the system-wide realtime clock
     auto timenow =
